@@ -1,0 +1,159 @@
+*{margin: 0;
+    padding: 0;
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+box-sizing: border-box;
+    background-size: cover;
+    z-index:1;
+    background-color: rgb(251, 250, 252);
+}
+img{
+  background-image: url();
+}
+a{
+    text-decoration: none;
+    color:rgb(52, 12, 145)
+}
+.search{
+    justify-content:center;
+    display: flex;
+    align-items: center;
+    margin:  20px;
+    padding: 2px ;
+    width:75%;
+    height: 35px;
+    border-radius: 5px;
+    border-color:hotpink;
+}
+.button{
+    border-radius: 5px;
+    height:35px;
+    width:5%;
+    border-color: rgb(56, 32, 121);
+}
+.item{
+    border-radius: 2px;
+  justify-content:right ;
+    display:flex;    
+}
+.login{
+    margin:10px ;
+    padding: 5px ;
+    height: 30px;
+    border-color: rgb(25, 47, 247);
+}
+.container{
+justify-content: space-around;
+    justify-content: space-evenly;
+    display:flex;
+    padding:20px;
+    font-size: 18px;
+    color:rgb(253, 250, 57)
+    
+}
+.container>img{
+    border-radius: 100%;
+    border-color: rebeccapurple
+}
+.blocks{
+    font-size:  40px;
+    margin:20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(3, 18, 61);
+}
+  .column {
+    float: left;
+    width: 25%;
+    padding: 0 40px;
+  }
+  .row {margin: 0 -5px;}
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+  .card {
+      border-radius: 8px;
+      border-color:rgb(66, 65, 66);
+    box-shadow: 0px 5px 5px 0px rgb(219, 121, 190);
+    padding: 5px;
+    height:190px;
+    text-align: center;
+    background-color: #f0e9f8;
+    border-style:groove;
+    position: left;
+    color:rgb(104, 25, 80);
+    text-decoration:dashed;
+  }
+ .deals{
+   padding: 20px;
+   font-size: 25px;
+   justify-content:space-evenly;
+   color: rgb(3, 18, 61);
+   font-family: Arial, Helvetica, sans-serif;
+  }
+ .contact{
+  padding: 20px;
+  height: 60px; 
+  color: rgb(3, 18, 61);
+}
+.cart{
+   padding: 20px;
+  height: 60px; 
+  color: rgb(3, 18, 61);
+
+}
+.orders{
+   padding: 20px;
+   height: 50px;
+   color: rgb(3, 18, 61);
+}
+.pagination {
+  display: flex;
+  list-style: none;
+ 
+}
+.pagination li {
+  flex: 1;
+  margin: 0px 5px;
+  background: #dde1e7;
+  border-radius: 3px;
+  border-color: blueviolet;
+  box-shadow: -3px -3px 7px #ffffff73, 3px 3px 5px rgba(94, 104, 121, 0.288);
+}
+.pagination li a {
+  font-size: 18px;
+  text-decoration: none;
+  color: #0b030c;
+  height: 45px;
+  width: 55px;
+  display: block;
+  line-height: 45px;
+ 
+}
+.pagination li:first-child a {
+  width: 120px;
+}
+.pagination li:last-child a {
+  width: 100px;
+}
+.pagination li.active {
+  box-shadow: inset -3px -3px 7px #ffffff73,
+    inset 3px 3px 5px rgba(94, 104, 121, 0.288);
+}
+.pagination li.active a {
+  font-size: 17px;
+  color: #6f6cde;
+}
+.pagination li:first-child {
+  margin: 0 15px 0 0;
+}
+.pagination li:last-child {
+  margin: 0 0 0 15px;
+}
